@@ -1,0 +1,67 @@
+:root{
+  /* Colors */
+  --mainTextColor: #ffffff;
+  --backgroundColor: #121212;
+  --accentColor: #86ADF7;
+  /* Dimensions */
+  --margins: 10px;
+}
+
+body {
+  margin: var(--margins);
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: var(--backgroundColor);
+}
+
+h1 {
+  font-size: 1.15em;
+  color: var(--mainTextColor);
+  font-style: normal;
+  font-weight: 400;
+  padding-bottom: 5px;
+}
+
+h2 {
+  font-size: 1em;
+  color: var(--mainTextColor);
+  font-style: normal;
+  font-weight: 400;
+  padding-bottom: 5px;
+}
+
+p {
+  font-size: 1em;
+  color: var(--mainTextColor);
+  font-style: normal;
+  font-weight: 400;
+  padding-bottom: 5px;
+}
+
+a {
+  font-size: 1em;
+  color: var(--mainTextColor);
+  text-decoration: underline;
+}
+
+a:hover {
+  background-color: var(--accentColor);
+  color: var(--backgroundColor);
+}
+
+@media (max-width: 820px){
+  h1 {
+    font-size: 1em;
+  }
+  h2 {
+    font-size: .8em;
+  }
+  p {
+    font-size: .8em;
+  }
+  a{
+    font-size: .8em;
+  }
+}

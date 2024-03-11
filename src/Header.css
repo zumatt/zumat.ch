@@ -1,0 +1,9 @@
+.header{
+    background-color: var(--backgroundColor);
+    position: fixed;
+    top: 0;
+}
+
+.header h1 span{
+    /*text-decoration: underline; DECOMMENT WHEN FILTERS ARE READY*/
+}

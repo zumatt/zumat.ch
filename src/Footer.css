@@ -1,0 +1,7 @@
+.footer{
+    font-size: 1.15em;
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - calc(2 * var(--margins)));
+    background-color: var(--backgroundColor);
+}
