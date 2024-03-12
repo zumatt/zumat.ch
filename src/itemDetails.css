@@ -1,0 +1,36 @@
+.itemPageHeader{
+    display:grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: var(--margins);
+}
+
+.itemPageTitle{
+    grid-column: 1 / span 11;
+}
+
+.itemPageDate{
+    grid-column: 12;
+    text-align: right;
+    vertical-align: bottom;
+    margin-top: auto;
+}
+
+.itemPageBody{
+    display:grid;
+    grid-template-areas: "a a";
+    grid-auto-columns: 1fr;
+    gap: var(--margins);
+}
+
+.itemPageImageContainer{
+    display:grid;
+    grid-template-areas: "a a a";
+    grid-auto-columns: 1fr;
+    gap: var(--margins);
+    padding-bottom: 9vh;
+}
+
+.itemPageImageContainer .Image {
+    width: 100%;
+    height: auto;
+}

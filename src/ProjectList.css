@@ -1,5 +1,6 @@
 .home{
-    padding: 7vh 0 6vh 0;
+    position: relative;
+    padding-bottom: 50px;
 }
 
 .listItem{
@@ -33,10 +34,6 @@
 }
 
 @media (max-width: 1395px){
-    .home{
-        padding: 9vh 0 6vh 0;
-    }
-
     .listItem .itemDate{
         grid-column: 6 / span 2;
     }
@@ -51,10 +48,6 @@
 }
 
 @media (max-width: 820px){
-    .home{
-        padding: 12vh 0 6vh 0;
-    }
-
     .listItem {
         grid-template-columns: repeat(3, 1fr);
         gap: 5px;
