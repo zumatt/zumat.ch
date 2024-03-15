@@ -1,24 +1,24 @@
 {
-    "This is a title": {
-        "itemDate": "2024 03 11",
-        "itemCategory": "Category",
-        "itemContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus magna quam, consequat nec nibh eget. ",
-        "itemLink": "https://www.google.com",
+    "DiPLab": {
+        "itemDate": "2023 02 07",
+        "itemCategory": "Tangible Products",
+        "itemContent": "The digital transformation of the antibiogram test now allows for its application beyond the confines of microbiology labs. This workshop presents an engaging chance for attendees to enhance their comprehension of antibiotics and their resistance. Moreover, it provides an array of hands-on activities, enabling participants to gain practical insight into the test. The workshop is designed to foster a profound respect for the crucial role antibiotics play in our everyday health and the challenges posed by resistance. Through this experience, participants will expand their understanding of antibiotics and their resistance, exploring the vital function these critical medications perform in contemporary healthcare. The project is inserted in MAKEAWARE! a research project on Antimicrobial Resistance. AMR occurs when organisms no longer respond to treatments, making infections hard to cure. Superbugs could cause 10 million deaths annually by 2050. Scientific research is important, but citizens' active cooperation is crucial. This project aims to engage young people in the fight against AMR through an interactive experience to raise awareness. Thanks to the project high school students can experience the procedure of studying antibiotic resistance against bacteria without being in a laboratory. All the information are represented in the product’s display and the smartphone. In particular on the smartphone are displayed all the instructions for the usage of the product and on the DiPLab Petri are shown the results of the experiment. The context is actually Microbiology in general and specifically the issue of Antimicrobial Resistance. Microbiology is one of the main areas of interest in studying the microorganisms that have been with us since the beginning. Most of the resources related to the subject are hard to read and understand.",
+        "itemLink": "https://spearhead-amr.github.io/makeaware/diplab-digital-petri-laboratory.html",
         "itemImage": {
-            "1": "https://via.placeholder.com/1920x1080"
+            "1": "https://spearhead-amr.github.io/makeaware/img/DiPLab_Digital-Petri-Laboratory_Matteo-Subet_Makeaware_Spearhead-Project.jpg",
+            "2": "https://spearhead-amr.github.io/makeaware/img/DiPLab_Digital-Petri-Laboratory_Matteo-Subet_Makeaware-Project.jpg"
         }
     },
-    "This is another title": {
-        "itemDate": "2024 05 08",
-        "itemCategory": "Another category",
-        "itemContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus magna quam, consequat nec nibh eget, blandit tincidunt leo.\nAliquam interdum, tortor in aliquet blandit, felis massa fermentum massa, at rhoncus dui sem non leo. Nulla molestie tincidunt ultrices. In dapibus libero vel ligula tincidunt vestibulum sit amet vel ligula. Phasellus felis purus, ornare in luctus vitae, efficitur at dolor. Duis feugiat mattis arcu, id porttitor turpis porttitor non. Nunc auctor ex vel pharetra aliquam. Aenean pharetra erat magna, luctus interdum diam ornare ut. Nulla ac ante ut diam dignissim venenatis ut vel justo. Phasellus maximus, purus quis egestas pellentesque, justo nunc condimentum nulla, vitae suscipit nibh justo a justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut nisl sit amet urna dictum rutrum quis id lorem. Aliquam venenatis porta scelerisque. Donec quis sagittis magna. Etiam mollis ligula mauris, vitae tristique felis sagittis eget. Morbi ut sapien nisl. Aliquam mollis, massa eget fringilla commodo, eros mauris accumsan neque, vestibulum scelerisque tortor tellus non nisl. Ut sit amet feugiat nibh. Pellentesque sit amet tempor odio. Sed efficitur lorem nisl, ut elementum lacus interdum sed. Cras dignissim lectus ac porta tincidunt. Praesent pellentesque est ut risus rhoncus, et suscipit lorem feugiat. In hac habitasse platea dictumst. Nullam pellentesque urna a augue tincidunt lobortis. Quisque ultricies aliquet massa aliquet egestas. Ut at varius lacus, vel interdum nisi. Vivamus volutpat sed orci id tempus. Cras accumsan lacinia ullamcorper. Ut at diam accumsan, sodales dui in, placerat elit. Mauris molestie turpis leo, mattis faucibus tortor placerat condimentum. Integer lobortis purus eu dignissim pellentesque. Vivamus ultrices mattis nunc. Morbi eget cursus leo, sit amet cursus ex. Ut egestas eu nisl at ultricies. Suspendisse finibus ex nec sagittis tincidunt. Quisque pulvinar ipsum eu accumsan lacinia. Quisque condimentum ipsum ac porta facilisis. Aliquam quis lectus eu nisl faucibus aliquet non non massa. Ut interdum nec metus imperdiet semper. Vestibulum sit amet quam in sem ultricies euismod. Fusce maximus iaculis elit et efficitur. Maecenas viverra velit risus, ac congue felis dictum sit amet. Sed et enim a quam consequat mollis nec ac nibh.\n\nKeywords: key1, key2",
-        "itemLink": "https://www.yahoo.com",
+    "C-UBI": {
+        "itemDate": "2023 01 27",
+        "itemCategory": "Tangible Products",
+        "itemContent": "C-UBI is a game involving two or more players. Born as a reinterpretation of the classic hide-and-seek, it is based on small cubes and integrates sound as a means of support to the finding. One player hides one cube, the other player/s must find it following the sound that the hidden cube emits. The game is timed, whoever finds the hidden cube first wins. In case time runs out before the cube is found, the hidden cube will emit a constant sound so that it can be found easily. Users are guided in the use of the game by to two displays, one for each cube, which progressively give instructions to them. Once the main cube is hidden, players must make use of both sight and hearing to find the hidden cube. In the main cube, in fact, a buzzer is inserted, which progressively emits 'beep' sounds, closer and closer together over time. The player's display, once the game has started, shows the countdown within which players can find the hidden cube. If no player finds the cube, the cube itself will emit a constant sound so that it will be easily found. C-UBI is a multi-player game that, using two or more cubes, engage the senses of both sight and hearing to find the hidden cube. There is only one switch on the cubes to turn them on. Information and countdown are presented to users through two displays, one per each cube. All other dynamics are activated by the players through by moving closer or apart the cubes. C-UBI has in fact a system of magnetic sensors that ensure that the different phases of the game are activated following the user's action. Intuitive drawings on one side of the cubes make it easy for players to understand how to trigger the game.",
+        "itemLink": "https://youtu.be/5NjWEGapoUs",
         "itemImage": {
-            "1": "https://via.placeholder.com/1920x1080",
-            "2": "https://via.placeholder.com/1920x1080",
-            "3": "https://via.placeholder.com/1920x1080",
-            "4": "https://via.placeholder.com/1920x1080",
-            "5": "https://via.placeholder.com/1920x1080"
+            "1": "https://uploads-ssl.webflow.com/622231eac69b42b8ac45c5ec/62360060aa85b3bbe33b5990_DSC_1443.jpg",
+            "2": "https://uploads-ssl.webflow.com/622231eac69b42b8ac45c5ec/62360060aaf8874813da6d78_DSC_1306.jpg",
+            "3": "https://uploads-ssl.webflow.com/622231eac69b42b8ac45c5ec/62360060b4149ad364251eec_DSC_1414.jpg",
+            "4": "https://uploads-ssl.webflow.com/622231eac69b42b8ac45c5ec/623600603161bd660fa403ff_DSC_1432.jpg"
         }
     }
 }
