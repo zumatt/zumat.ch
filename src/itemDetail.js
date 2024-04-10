@@ -12,7 +12,15 @@ function slugify(text) {
   }
 
 function ItemDetail({ item }) {
-    const splitIndex = item.itemContent.lastIndexOf(' ', 1350);
+    let splitIndex = item.itemContent.lastIndexOf(' ', 0);
+    console.log(window.innerWidth);
+    if (window.innerWidth > 820) {
+    const characterCount = item.itemContent.length;
+    const rowCount = characterCount / 72;
+    splitIndex = item.itemContent.lastIndexOf(' ', (72*(rowCount/2+3)));
+    } else {
+        splitIndex = item.itemContent.length;
+    }
     const firstPart = item.itemContent.substring(0, splitIndex);
     const secondPart = item.itemContent.substring(splitIndex);
 
@@ -34,6 +42,13 @@ function ItemDetail({ item }) {
         ));
     };
 
+    var today = new Date();
+    var dd = String(today.getDate()).padStart(2, '0');
+    var mm = String(today.getMonth()); //January is 0!
+    var months = new Array('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');
+    var yyyy = today.getFullYear();
+    today = mm + '/' + dd + '/' + yyyy;
+
     return (
         <div className='itemPage'>
             <div className='itemPageHeader'>
@@ -49,11 +64,13 @@ function ItemDetail({ item }) {
             </div>
             <div className='itemPageImageContainer'>{renderImages()}</div>
             <div className='itemPageCite'>
-                <p>How to cite this reference:<br></br>Subet, Matteo ({item.itemDate.substring(0, 4)}). {item.title}. zumat.ch/#/{slugify(item.title)}</p>
+                <p>How to cite this reference:<br></br>Subet, Matteo ({item.itemDate.substring(0, 4)}). {item.title}. Retrieved on {dd} {months[mm]} {yyyy} <a href={`https://zumat.ch/${slugify(item.title)}`}>zumat.ch/{slugify(item.title)}</a></p>
             </div>
             <Footer />
         </div>
     );
 }
+
+
 
 export default ItemDetail;

@@ -1,7 +1,8 @@
 import React from "react";
 import "./App.css";
-import { createHashRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Homepage from "./pages/Homepage";
+import About from "./pages/About";
 import ItemDetail from "./itemDetail";
 import data from './projects.json';
 
@@ -19,10 +20,14 @@ const itemRoutes = Object.entries(data).map(([title, details]) => ({
   element: <ItemDetail item={{ title, ...details }} />
 }));
 
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
     path: "/",
     element: <Homepage />,
+  },
+  {
+    path: "/about",
+    element: <About />,
   },
   ...itemRoutes
 ]);
