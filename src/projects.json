@@ -20,5 +20,16 @@
             "3": "https://uploads-ssl.webflow.com/622231eac69b42b8ac45c5ec/62360060b4149ad364251eec_DSC_1414.jpg",
             "4": "https://uploads-ssl.webflow.com/622231eac69b42b8ac45c5ec/623600603161bd660fa403ff_DSC_1432.jpg"
         }
+    },
+    "Patchy": {
+        "itemDate": "2022 03 20",
+        "itemCategory": "Tangible Products",
+        "itemContent": "Patchy is an interactive game for both kids and grandparents ideated to teach them complex systems in an easy and playful way. The concept of the project was born from the necessity of connecting grandparents and grandchildren that live in different countries, letting them learn about technology and play together. Patchy is composed by two boards that connect the two users through a wireless vocal assistant that guides all the experience. The goal of the users is composing on the board some cycles that describe complex system (as, for example, Sending and receiving a message), with the help of blocks that represent the single steps of the activities. The project is physical. The users interact with the board in two different ways: they can speak directly with Patchy, which has a vocal assistant that guides the hole activity experience, and they also interact with the blocks that they have to place in the right order on the board, to complete the game. Since it’s a learning experience, the users can ask Patchy for explanations if they don’t know how to complete the cycles. As they move on with the exercise, they have also a visible light feedback with a led ring that lights up green if the blocks are positioned correctly or red if they are not. As soon as they complete the activity, they gain a reward, as sending a real message to the other user. The User Experience is quite simple because it’s always guided by the vocal assistant that explains each step to the users, in case the operation is not explicit. The language used is simple in order to make both children and adults learn about complex topics. Moreover, the activities cycles are studied to be repetitive, both to make children understand how the topics work, and to make the experience easy to learn and to repeat. The experience is based on kits of blocks that describe different systems, in this way the users can learn about several technology topics using the same board.",
+        "itemLink": "https://youtu.be/u2OPxu1O5P0",
+        "itemImage": {
+            "1": "https://d2w9rnfcy7mm78.cloudfront.net/27491789/original_50c01093200a1ecbeee2e1197d0de974.jpg?1712775472?bc=0",
+            "2": "https://d2w9rnfcy7mm78.cloudfront.net/27491814/original_5a28066edf43b87961bb9d9dd4374ddb.jpg?1712775520?bc=0",
+            "3": "https://d2w9rnfcy7mm78.cloudfront.net/27491821/original_aa166db1259e8c7d74a76dd51b677d4f.jpg?1712775549?bc=0"
+        }
     }
 }
