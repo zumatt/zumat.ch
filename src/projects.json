@@ -31,5 +31,16 @@
             "2": "https://d2w9rnfcy7mm78.cloudfront.net/27491814/original_5a28066edf43b87961bb9d9dd4374ddb.jpg?1712775520?bc=0",
             "3": "https://d2w9rnfcy7mm78.cloudfront.net/27491821/original_aa166db1259e8c7d74a76dd51b677d4f.jpg?1712775549?bc=0"
         }
+    },
+    "Playlp: Re-imagine the vinyl experience": {
+        "itemDate": "2021 11 18",
+        "itemCategory": "Tangible Products",
+        "itemContent": "A brand new product that mixes past and present, relive the vinyl experience with your favourite playlist, constantly updated to suit your tastes. The user can interact with the object by simply inserting a disc with integrated NFC. The smartphone contained into the product is able to read the information included within the NFC tag, the phone will then be directed to the playlist preloaded on the disc. Once it has been successfully read, the music will start playing and the user will be able to navigate through the playlist using three physical buttons: back, play/pause and forward. The product currently requires a phone capable of reading an NFC tag and a disc with an integrated tag to function. The main interaction between the user and the product is very simple, only two easy interactions are required to start enjoying the object: inserting the disc and closing the support mechanism. After that, the user can interact with the product using three buttons to navigate through the playlist. In order to change the playlist, it will be necessary to open the support mechanism again and repeat the main interaction. The object can be used in any context and situation, but it certainly finds its greatest application in a home environment where the user wants to enjoy some music in total relax.",
+        "itemLink": "https://youtu.be/oUlNV4xlGXs",
+        "itemImage": {
+            "1": "https://d2w9rnfcy7mm78.cloudfront.net/27491946/original_1a0d7215d3157c6355922b7769f5298d.png?1712776074?bc=0",
+            "2": "https://d2w9rnfcy7mm78.cloudfront.net/27491949/original_e6450241f8c55e741f19727d76d61450.png?1712776084?bc=0",
+            "3": "https://d2w9rnfcy7mm78.cloudfront.net/27491947/original_b6134bc5b73d34d3ba91ed76155f0d29.png?1712776080?bc=0"
+        }
     }
 }
