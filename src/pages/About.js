@@ -5,7 +5,7 @@ import { CreateHead } from '../components/HeadHelper.js';
 import '../index.css';
 
 function Homepage() {
-    let aboutDescription = "Matteo Subet is a versatile academic professional, currently serving as a teaching and research assistant at the SUPSI Institute of Design and the Master of Arts program in Interaction Design. His work is deeply rooted in the intersections of design education, theory, and practice. Matteo's primary research interests lie in the field of human-computer interaction, with a particular focus on exploring the dynamic relationship between users and emerging technologies. This includes investigating the integration of physical processes with computational systems, often referred to as physical computing. Furthermore, Matteo is passionate about the application of artificial intelligence (AI) in educational contexts. He explores how AI-driven systems can enhance learning experiences and instructional practices, seeking to develop innovative solutions that are both practical and transformative. Through his multifaceted research and contributions, Matteo aims to push the boundaries of how technology interfaces with education and design, driving forward advancements that have the potential to significantly impact these fields.";
+    let aboutDescription = "Matteo Subet is a teaching and research assistant at the SUPSI Institute of Design and the Master of Arts program in Interaction Design. His work is deeply rooted in the intersections of design education, theory, and practice. Matteo's primary research interests lie in the field of human-computer interaction, with a particular focus on exploring the dynamic relationship between users and emerging technologies. This includes investigating the integration of physical processes with computational systems, often referred to as physical computing. Furthermore, Matteo is passionate about the application of artificial intelligence (AI) in educational contexts. He explores how AI-driven systems can enhance learning experiences and instructional practices, seeking to develop innovative solutions that are both practical and transformative. Through his multifaceted research and contributions, Matteo aims to push the boundaries of how technology interfaces with education and design, driving forward advancements that have the potential to significantly impact these fields.";
     let splitIndex = aboutDescription.lastIndexOf(' ', 0);
     console.log(window.innerWidth);
     if (window.innerWidth > 820) {
@@ -46,6 +46,8 @@ function Homepage() {
                     <p className='itemPageContent'>{firstPartSplitted}</p>
                     <div className='itemPageContent'>
                         <p>{secondPartSplitted}</p>
+                        <a href="https://orcid.org/0009-0003-4769-9568" target="_blank">Orcid +</a><br></br>
+                        <a href="https://www.researchgate.net/profile/Matteo-Subet" target="_blank">ResearchGate +</a><br></br>
                         <a href="https://www.linkedin.com/in/zumat/" target="_blank">Linkedin +</a><br></br>
                         <a href="https://www.instagram.com/zumat.ch" target="_blank">Instagram +</a>
                     </div>
