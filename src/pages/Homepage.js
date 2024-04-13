@@ -3,7 +3,6 @@ import Footer from '../components/Footer.js';
 import ProjectList from '../components/ProjectList';
 import data from '../projects.json';
 import { CreateHead } from '../components/HeadHelper.js';
-import '../index.css';
 
 
 function Homepage() {

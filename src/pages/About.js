@@ -2,7 +2,6 @@ import React from 'react';
 import Footer from '../components/Footer.js';
 import './singleProject.css';
 import { CreateHead } from '../components/HeadHelper.js';
-import '../index.css';
 
 function Homepage() {
     let aboutDescription = "Matteo Subet is a teaching and research assistant at the SUPSI Institute of Design and the Master of Arts program in Interaction Design. His work is deeply rooted in the intersections of design education, theory, and practice. Matteo's primary research interests lie in the field of human-computer interaction, with a particular focus on exploring the dynamic relationship between users and emerging technologies. This includes investigating the integration of physical processes with computational systems, often referred to as physical computing. Furthermore, Matteo is passionate about the application of artificial intelligence (AI) in educational contexts. He explores how AI-driven systems can enhance learning experiences and instructional practices, seeking to develop innovative solutions that are both practical and transformative. Through his multifaceted research and contributions, Matteo aims to push the boundaries of how technology interfaces with education and design, driving forward advancements that have the potential to significantly impact these fields.";

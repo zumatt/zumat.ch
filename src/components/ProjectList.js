@@ -1,5 +1,4 @@
 import './ProjectList.css';
-import '../index.css';
 
 function slugify(text) {
   return text.toString().toLowerCase()

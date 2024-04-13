@@ -2,7 +2,6 @@ import React from 'react';
 import Footer from '../components/Footer.js';
 import './singleProject.css';
 import { CreateHead } from '../components/HeadHelper.js';
-import '../index.css';
 
 function slugify(text) {
     return text.toString().toLowerCase()
