@@ -1,19 +1,21 @@
 import Head from './Head';
 
+const publicUrl = process.env.PUBLIC_URL;
+
 export const CreateHead = ({
-    title = "No page title",
+    title = "Zumat Interaction Designer",
     description = "Page without description",
-    image = "%PUBLIC_URL%/zumat_interaction-designer_matteo-subet.png",
-    url = "",
+    image = publicUrl + "/zumat_interaction-designer_matteo-subet.png",
+    url = publicUrl,
     type = "website"
 }) => (
     <Head>
         <meta charset="utf-8" />
-        <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+        <link rel="icon" href={`${publicUrl}/favicon.ico`} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
-        <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-        <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+        <link rel="apple-touch-icon" href={`${publicUrl}/logo192.png`} />
+        <link rel="manifest" href={`${publicUrl}/manifest.json`} />
         <meta property="og:title" content={title} />
         <meta property="og:url" content={url} />
         <meta property="og:site_name" content={url} />

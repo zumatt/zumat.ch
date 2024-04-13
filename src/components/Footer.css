@@ -5,3 +5,9 @@
     width: calc(100% - calc(2 * var(--margins)));
     background-color: var(--backgroundColor);
 }
+
+@media (max-width: 820px){
+    .footer{
+        font-size: .65em;
+    }
+}
