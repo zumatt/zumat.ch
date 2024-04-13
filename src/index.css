@@ -65,3 +65,8 @@ a:hover {
     font-size: 1em;
   }
 }
+
+::selection {
+  color: var(--backgroundColor);
+  background: var(--accentColor);
+}

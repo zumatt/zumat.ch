@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from '../components/Footer.js';
 import './singleProject.css';
 import { CreateHead } from '../components/HeadHelper.js';
+import '../index.css';
 
 function Homepage() {
     let aboutDescription = "I am a Swiss-based artist and designer. I am interested in the intersection of art, design, and technology. I am currently studying at the Zurich University of the Arts. I am passionate about creating digital experiences that are both visually appealing and user-friendly. I am always looking for new opportunities to collaborate with other creatives and expand my skill set. Feel free to reach out to me if you would like to work together! I am a Swiss-based artist and designer. I am interested in the intersection of art, design, and technology. I am currently studying at the Zurich University of the Arts. I am passionate about creating digital experiences that are both visually appealing and user-friendly. I am always looking for new opportunities to collaborate with other creatives and expand my skill set. Feel free to reach out to me if you would like to work together!";
