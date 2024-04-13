@@ -46,5 +46,16 @@
             "3": "https://d2w9rnfcy7mm78.cloudfront.net/27491947/original_b6134bc5b73d34d3ba91ed76155f0d29.png?1712776080?bc=0"
         },
         "itemSEODescription": "A brand new product that mixes past and present, relive the vinyl experience with your favourite playlist, constantly updated to suit your tastes. The user can interact with the object by simply inserting a disc with integrated NFC."
+    },
+    "Diatolumen": {
+        "itemDate": "2021 12 20",
+        "itemCategory": "Digital Experiences",
+        "itemContent": "Diatolumen is a lampshade model inspired by forms generated from the machine learning system, StyleGAN, using Runway software. Trained from 500 microscopic images of diatoms, the system generated new diatoms created with artificial intelligence, which were successively used as inspiration to create a 3D model of a lampshade, a symbolic object, chosen with the aim to illuminate our creativity towards a more active co-design between nature, technology and humanity. Diatolumen is a lampshade that was designed in the Blender-program and printed on a 3D printer. The sleek, streamlined shapes are made in the style of diatoms. The user interacts with the Diatolumen, turning on the light in the usual way. And the light emanating with the lampshade is scattered on the surrounding surfaces in the form of different shapes. Thus, looking at these shadows, the user gets a sense of the unity of the forms of nature and man.",
+        "itemLink": "https://youtu.be/Do1PBNlwXvA",
+        "itemImage": {
+            "1": "https://d2w9rnfcy7mm78.cloudfront.net/27542361/original_670f0fb0f9460d908835e024f751229c.jpg?1713023232?bc=0",
+            "2": "https://d2w9rnfcy7mm78.cloudfront.net/27542358/original_c8c2a38dd40b28a8e8cb7c2602687f04.jpg?1713023212?bc=0"
+        },
+        "itemSEODescription": "Diatolumen is a lampshade model inspired by forms generated from the machine learning system, StyleGAN, using Runway software. Trained from 500 microscopic images of diatoms, the system generated new diatoms created with artificial intelligence, which were successively used as inspiration to create a 3D model of a lampshade."
     }
 }
