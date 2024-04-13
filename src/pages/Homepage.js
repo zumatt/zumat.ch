@@ -12,7 +12,7 @@ function Homepage() {
             <CreateHead
                 title="Homepage | Zumat Interaction Designer"
                 description="Zumat also known as Matteo Subet is an Interaction Designer based in Switerland. His research interests are human-computer interaction with a focus on new technologies and physical computing, and AI-driven systems in the educational practices."
-                image="/zumat_interaction-designer_matteo-subet.png"
+                image="https://beta.zumat.ch/zumat_interaction-designer_matteo-subet.png"
                 url="https://zumat.ch/"
                 type="website"
             />

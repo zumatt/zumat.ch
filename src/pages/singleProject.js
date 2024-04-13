@@ -56,7 +56,7 @@ function ItemDetail({ item }) {
             <CreateHead
                 title={`${item.title} | Zumat Interaction Designer`}
                 description={item.itemSEODescription}
-                image={item.itemImage[0]}
+                image={item.itemImage[1]}
                 url={`https://zumat.ch/${slugify(item.title)}`}
                 type="article"
             />
