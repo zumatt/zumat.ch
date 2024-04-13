@@ -57,6 +57,7 @@
         margin: 0;
         grid-column: 1 / span 3;
         grid-row: 1;
+        font-size: 0.85em;
     }
 
     .listItem .itemDate{

@@ -1,6 +1,7 @@
 import React from 'react';
-import Footer from './Footer';
-import './itemDetails.css';
+import Footer from '../components/Footer.js';
+import './singleProject.css';
+import { CreateHead } from '../components/HeadHelper.js';
 
 function slugify(text) {
     return text.toString().toLowerCase()
@@ -50,23 +51,33 @@ function ItemDetail({ item }) {
     today = mm + '/' + dd + '/' + yyyy;
 
     return (
-        <div className='itemPage'>
-            <div className='itemPageHeader'>
-                <h1 className='itemPageTitle'><a href="/">Zumat</a><br></br>{item.title}</h1>
-                <p className='itemPageDate'>{item.itemDate.substring(0, 4)}</p>
-            </div>
-            <div className='itemPageBody'>
-                <p className='itemPageContent'>{firstPartSplitted}</p>
-                <div className='itemPageContent'>
-                    <p>{secondPartSplitted}</p>
-                    <a href={item.itemLink} target="_blank">Link +</a>
+        <div>
+            <CreateHead
+                title={`${item.title} | Zumat Interaction Designer`}
+                description={item.itemSEODescription}
+                image={item.itemImage[0]}
+                url={`https://zumat.ch/${slugify(item.title)}`}
+                type="article"
+            />
+        
+            <div className='itemPage'>
+                <div className='itemPageHeader'>
+                    <h1 className='itemPageTitle'><a href="/">Zumat</a><br></br>{item.title}</h1>
+                    <p className='itemPageDate'>{item.itemDate.substring(0, 4)}</p>
                 </div>
+                <div className='itemPageBody'>
+                    <p className='itemPageContent'>{firstPartSplitted}</p>
+                    <div className='itemPageContent'>
+                        <p>{secondPartSplitted}</p>
+                        <a href={item.itemLink} target="_blank">Link +</a>
+                    </div>
+                </div>
+                <div className='itemPageImageContainer'>{renderImages()}</div>
+                <div className='itemPageCite'>
+                    <p>How to cite this reference:<br></br>Subet, Matteo ({item.itemDate.substring(0, 4)}). {item.title}. Retrieved on {dd} {months[mm]} {yyyy} <a href={`https://zumat.ch/${slugify(item.title)}`}>zumat.ch/{slugify(item.title)}</a></p>
+                </div>
+                <Footer />
             </div>
-            <div className='itemPageImageContainer'>{renderImages()}</div>
-            <div className='itemPageCite'>
-                <p>How to cite this reference:<br></br>Subet, Matteo ({item.itemDate.substring(0, 4)}). {item.title}. Retrieved on {dd} {months[mm]} {yyyy} <a href={`https://zumat.ch/${slugify(item.title)}`}>zumat.ch/{slugify(item.title)}</a></p>
-            </div>
-            <Footer />
         </div>
     );
 }

@@ -1,5 +1,5 @@
 .footer{
-    font-size: 1.15em;
+    font-size: 1.1em;
     position: fixed;
     bottom: 0;
     width: calc(100% - calc(2 * var(--margins)));

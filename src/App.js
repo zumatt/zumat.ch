@@ -1,9 +1,8 @@
 import React from "react";
-import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import About from "./pages/About";
-import ItemDetail from "./itemDetail";
+import ItemDetail from "./pages/singleProject";
 import data from './projects.json';
 
 function slugify(text) {

@@ -7,7 +7,8 @@
         "itemImage": {
             "1": "https://spearhead-amr.github.io/makeaware/img/DiPLab_Digital-Petri-Laboratory_Matteo-Subet_Makeaware_Spearhead-Project.jpg",
             "2": "https://spearhead-amr.github.io/makeaware/img/DiPLab_Digital-Petri-Laboratory_Matteo-Subet_Makeaware-Project.jpg"
-        }
+        },
+        "itemSEODescription": "The digital transformation of the antibiogram test now allows for its application beyond the confines of microbiology labs. This workshop presents an engaging chance for attendees to enhance their comprehension of antibiotics and their resistance."
     },
     "C-UBI": {
         "itemDate": "2023 01 27",
@@ -19,7 +20,8 @@
             "2": "https://uploads-ssl.webflow.com/622231eac69b42b8ac45c5ec/62360060aaf8874813da6d78_DSC_1306.jpg",
             "3": "https://uploads-ssl.webflow.com/622231eac69b42b8ac45c5ec/62360060b4149ad364251eec_DSC_1414.jpg",
             "4": "https://uploads-ssl.webflow.com/622231eac69b42b8ac45c5ec/623600603161bd660fa403ff_DSC_1432.jpg"
-        }
+        },
+        "itemSEODescription": "C-UBI is a game involving two or more players. Born as a reinterpretation of the classic hide-and-seek, it is based on small cubes and integrates sound as a means of support to the finding. One player hides one cube, the other player/s must find it following the sound that the hidden cube emits."
     },
     "Patchy": {
         "itemDate": "2022 03 20",
@@ -30,7 +32,8 @@
             "1": "https://d2w9rnfcy7mm78.cloudfront.net/27491789/original_50c01093200a1ecbeee2e1197d0de974.jpg?1712775472?bc=0",
             "2": "https://d2w9rnfcy7mm78.cloudfront.net/27491814/original_5a28066edf43b87961bb9d9dd4374ddb.jpg?1712775520?bc=0",
             "3": "https://d2w9rnfcy7mm78.cloudfront.net/27491821/original_aa166db1259e8c7d74a76dd51b677d4f.jpg?1712775549?bc=0"
-        }
+        },
+        "itemSEODescription": "Patchy is an interactive game for both kids and grandparents ideated to teach them complex systems in an easy and playful way. The concept of the project was born from the necessity of connecting grandparents and grandchildren that live in different countries, letting them learn about technology and play together."
     },
     "Playlp: Re-imagine the vinyl experience": {
         "itemDate": "2021 11 18",
@@ -41,6 +44,7 @@
             "1": "https://d2w9rnfcy7mm78.cloudfront.net/27491946/original_1a0d7215d3157c6355922b7769f5298d.png?1712776074?bc=0",
             "2": "https://d2w9rnfcy7mm78.cloudfront.net/27491949/original_e6450241f8c55e741f19727d76d61450.png?1712776084?bc=0",
             "3": "https://d2w9rnfcy7mm78.cloudfront.net/27491947/original_b6134bc5b73d34d3ba91ed76155f0d29.png?1712776080?bc=0"
-        }
+        },
+        "itemSEODescription": "A brand new product that mixes past and present, relive the vinyl experience with your favourite playlist, constantly updated to suit your tastes. The user can interact with the object by simply inserting a disc with integrated NFC."
     }
 }

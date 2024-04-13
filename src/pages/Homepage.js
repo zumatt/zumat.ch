@@ -1,11 +1,20 @@
-import Header from '../Header';
-import Footer from '../Footer';
-import ProjectList from '../ProjectList';
+import Header from '../components/Header.js';
+import Footer from '../components/Footer.js';
+import ProjectList from '../components/ProjectList';
 import data from '../projects.json';
+import { CreateHead } from '../components/HeadHelper.js';
+
 
 function Homepage() {
     return (
         <div>
+            <CreateHead
+                title="Homepage | Zumat Interaction Designer"
+                description="Zumat also known as Matteo Subet is an Interaction Designer based in Switerland. His research interests are human-computer interaction with a focus on new technologies and physical computing, and AI-driven systems in the educational practices."
+                image="%PUBLIC_URL%/zumat_interaction-designer_matteo-subet.png"
+                url="https://zumat.ch/"
+                type="website"
+            />
             <Header />
             <Footer />
             <ProjectList data={data}/>
