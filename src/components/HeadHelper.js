@@ -1,6 +1,6 @@
 import Head from './Head';
 
-const publicUrl = "https://beta.zumat.ch";
+const publicUrl = "https://zumat.ch";
 
 export const CreateHead = ({
     title = "Zumat Interaction Designer",
