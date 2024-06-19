@@ -10,6 +10,7 @@
 body {
   margin: var(--margins);
   font-family: 'IBM Plex Mono';
+  font-display: swap;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;

@@ -35,6 +35,17 @@
         },
         "itemSEODescription": "Patchy is an interactive game for both kids and grandparents ideated to teach them complex systems in an easy and playful way. The concept of the project was born from the necessity of connecting grandparents and grandchildren that live in different countries, letting them learn about technology and play together."
     },
+    "Weaving Memories": {
+        "itemDate": "2022 02 09",
+        "itemCategory": "Tangible Products",
+        "itemContent": "Weaving Memories - is an encrypted communication system displayed into a laser-cut felt carpet as a physical object. The encryption contains a poem represented by four symbols in 15 canvases of different grids and colors. Weaving memories is both a digital and physical project encoded and decoded in Processing, and transformed into a tangible carpet. The sketch in Processing consists of two screens, the encoding and decoding, where users can easily interact by following the instructions. To encode a message the user types in and the message appears in four different characters. Whereas, to decode it the user needs to use the keys 1-4 for each character, and every after three characters a letter will be shown. From the viewpoint of functions the project is simple and clear as it is followed by instructions throughout the whole process. Users can type in their encoded message in different grids and have them saved as pdf files. They can generate digital or physical projects, and customize it according to their needs. Woven Memories was inspired by one of the oldest forms of communication of Andean people, and by the core memory used in the early days of computing. The main forms of expression and communication for the Andean were the textiles, like carpets, where every detail conveyed a meaning, from the woven symbols to the colors and spin of the yarn. Another way was through knotted strings known as khipu, which recorded information in a kind of three-dimensional binary code, similar to today’s computers. We also found knots as a way of sending a message in the handmade Persian carpets, called Pattern Signing - where the patterns are sung to other co-weavers. The “core rope memory” which was the dominant memory technology in the 60s, was also physically weaved into a high-density storage.",
+        "itemLink": "https://youtu.be/JjQkVvjEhec",
+        "itemImage": {
+            "1": "https://d2w9rnfcy7mm78.cloudfront.net/28865710/original_3405093a2dfd1fc77b7a1a0c4b99f7e5.jpg?1718788755?bc=0",
+            "2": "https://d2w9rnfcy7mm78.cloudfront.net/28865709/original_d0cbeaa603ef64326ceace18af9a5f8e.jpg?1718788754?bc=0"
+        },
+        "itemSEODescription": "Weaving Memories - is an encrypted communication system displayed into a laser-cut felt carpet as a physical object. The encryption contains a poem represented by four symbols in 15 canvases of different grids and colors."
+    },
     "Diatolumen": {
         "itemDate": "2021 12 20",
         "itemCategory": "Digital Experiences",
