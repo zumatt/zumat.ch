@@ -51,6 +51,7 @@
         display:grid;
         grid-template-areas: "a";
         margin-bottom: 30px;
+        gap: 0px;
     }
 
     .itemPageImageContainer{
@@ -63,4 +64,17 @@
         margin-top: 0px;
     }
     
+    .itemPageContent{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .itemPageContent p{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 }
