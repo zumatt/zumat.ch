@@ -13,7 +13,7 @@ function ProjectList({ data }) {
   return (
     <div className="home">
       {Object.entries(data).map(([title, details], index) => (
-        <div id={"item"+index}>
+        <div key={index} id={"item"+index}>
           <div className="listItem">
             <h2 className="itemTitle">{title}</h2>
             <p className="itemDate">{details.itemDate}</p>
