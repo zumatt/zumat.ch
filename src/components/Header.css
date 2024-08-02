@@ -3,8 +3,15 @@
     position: sticky;
     top: 0;
     z-index: 1;
+    font-size: 1.3em;
 }
 
 .header h1 span{
     /*text-decoration: underline; DECOMMENT WHEN FILTERS ARE READY*/
+}
+
+@media (max-width: 820px){
+    .header{
+        font-size: 1em;
+    }
 }
